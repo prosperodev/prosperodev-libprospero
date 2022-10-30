@@ -22,8 +22,8 @@ LICENSE
 LIBPROSPERO is licensed under MIT and based in reverse job done with ps4 and older PlayStation platforms. Credits goes to to all people involved in ps4dev, orbisdev and openorbis. Additional credits goes to:
 
 - [Andy Nguyen / theflow0](https://twitter.com/theflow0)
-- [Cturt] (https://twitter.com/cturte)
-- [Specter] (https://twitter.com/SpecterDev)
+- [Cturt](https://twitter.com/cturte)
+- [Specter](https://twitter.com/SpecterDev)
 - [ChendoChap](https://github.com/ChendoChap)
 - [Znullptr](https://twitter.com/Znullptr)
 - [sleirsgoevy](https://twitter.com/sleirsgoevy)
