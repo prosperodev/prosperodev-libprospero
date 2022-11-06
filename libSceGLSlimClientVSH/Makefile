@@ -20,5 +20,11 @@ $(OutPath)/$(TargetFile).a: $(ObjectFiles)
 install:
 	@cp $(OutPath)/$(TargetFile).a $(PROSPERODEV)/usr/lib
 	@cp include/*.h $(PROSPERODEV)/usr/include/prospero
+	@mkdir $(PROSPERODEV)/usr/include/prospero/EGL
+	@mkdir $(PROSPERODEV)/usr/include/prospero/GLES2
+	@mkdir $(PROSPERODEV)/usr/include/prospero/KHR
+	@cp include/EGL/*.h $(PROSPERODEV)/usr/include/prospero/EGL
+	@cp include/GLES2/*.h $(PROSPERODEV)/usr/include/prospero/GLES2
+	@cp include/KHR/*.h $(PROSPERODEV)/usr/include/prospero/KHR
 	@echo "$(TargetFile) Installed!"
 
