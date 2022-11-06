@@ -1,5 +1,5 @@
 #!/bin/bash -x
-SUBDIRS="libprospero libkernel_sys libSceLibcInternal libSceSysmodule libSceSystemService libSceUserService libSceNet libScePad libSceVideoOut libSceAudioOut"
+SUBDIRS="libprospero libkernel_sys libSceLibcInternal libSceSysmodule libSceSystemService libSceUserService libSceNet libScePad libSceVideoOut libSceAudioOut libSceGLSlimClientVSH"
 PROC_NR=$(getconf _NPROCESSORS_ONLN)
 
 
