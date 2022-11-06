@@ -25,6 +25,7 @@ void libprospero_init()
 	libScePad_init();
 	libSceVideoOut_init();
 	libSceAudioOut_init();
+	libSceGLSlimClientVSH_init();
 
 
 }

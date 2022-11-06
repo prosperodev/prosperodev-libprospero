@@ -43,6 +43,7 @@ int libSceUserService_init();
 int libScePad_init();
 int libSceVideoOut_init();
 int libSceAudioOut_init();
+int libSceGLSlimClientVSH_init();
 
 #ifdef __cplusplus
 }
